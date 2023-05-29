@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+  
+  body {
+    margin: 10px auto;
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 340px;
+    height: 100%;
+    border: 1px solid #717377;
+    border-radius: 16px;
+    background-color:rgba(255, 255, 255, 0.551);
+    box-shadow: 16px gray;
+  }
+  
+  input {
+    width: 100%;
+    font-size: 40px;
+    height: 220px;
+    padding: 36px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    text-align: right;
+    background: transparent;
+    border-radius: 16px 16px 0px 0px;
+    border: 60px;
+    background-color: rgb(13, 172, 172);
+  }
+  
+  input::placeholder {
+    color: black;
+  }
+
+
+  button {
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 62px;
+    padding-left: 6px;
+    margin: 10px;
+    height: 48px;
+    /* background: transparent; */
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: -16px -16px 15px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+  
+  .signs:hover {
+    background-color: rgb(88, 170, 182);
+  }
+  button:hover {
+    background-color: rgb(168, 162, 165);
+  }
+  
+  .equal {
+    color: rgb(50, 119, 119);
+  }
+  
+  .signs {
+  color:rgb(50, 119, 119);
+  }
+
+  
+  
+
+
+
+
+
+  @media (min-width: 1024px) {
+    .container {
+      width: 750px;
+      height: 100%;
+    }
+
+    button {
+      width: 148px;
+      padding: 10px;
+      margin:  18px;
+      height: 38px;
+     
+    }
+  } 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
